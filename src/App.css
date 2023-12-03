@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  font-size: 10px;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+.ordinary-text{
+  color: rgba(255, 255, 255, 1);
+  opacity: 60%;
+  font-size: 1.6rem;
+}
+body{
+  opacity: 100%;
+}
