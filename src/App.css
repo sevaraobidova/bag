@@ -19,3 +19,6 @@ html{
 body{
   opacity: 100%;
 }
+img{
+  max-width: 100%;
+}

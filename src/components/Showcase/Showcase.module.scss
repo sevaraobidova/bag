@@ -1,0 +1,17 @@
+.showcase {
+    background-color: rgba(47, 47, 47, 1);
+    padding: 10rem 0;
+
+    .show-wrap {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5rem;
+
+        .title {
+            width: 70%;
+        }
+    }
+}

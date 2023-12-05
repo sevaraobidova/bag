@@ -9,7 +9,7 @@ export const theme = createTheme({
             main: 'rgba(245, 155, 0, 1)'
         },
         secondary: {
-            main: 'rgba(47, 47, 47, 0.6)'
+            main: 'rgba(255, 255, 255, 0.6)'
         },
         otherColor: {
             main: 'rgba(255, 255, 255, 1)'
@@ -21,7 +21,7 @@ export const theme = createTheme({
             fontSize: '1.6rem',
             lineHeight: '2.56rem',
             '&:active': {
-                color: 'rgba(47, 47, 47, 1)',
+                color: 'rgba(255, 255, 255, 1)',
               },
         },
         h1: {

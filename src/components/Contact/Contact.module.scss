@@ -1,0 +1,62 @@
+.join{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(232, 232, 232, 0.4);
+    margin: 10rem 0;
+   
+    .join-image{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/contact-img.png') center center;
+            background-size: cover;
+        // background: url('/src/assets/images/join.png')center center;
+        width: 492px;
+        height: 549px;
+        background-size: cover;
+        position: relative;
+        z-index: 1;
+        .overlay{
+            background: rgba(47, 47, 47, 0.60);
+            z-index: 3;
+            position: absolute;
+        }
+        
+        
+    }
+    .join-form{
+        height: 549px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+        justify-content: center;
+        padding:50px ;
+        width: 60%;
+        column-gap: 30px;
+        background-image: url("../../assets/contact-bg.png");
+        background-color: rgba(47, 47, 47, 0.95);
+
+        .join-title{
+            color: white;
+            font-weight: 700;
+            text-transform: capitalize;
+            font-size: 1.9rem;
+        }
+        .input-row{
+            display: flex;
+            gap: 30px;
+           
+            align-items: center;
+        }
+        .input{
+            background: transparent;
+            border:none;
+            border:1px solid white;
+            opacity: 0.35;
+            border-radius: 10px;
+            padding: 10px 15px;
+            margin: 5px 0;
+            
+        }
+        
+    }
+}

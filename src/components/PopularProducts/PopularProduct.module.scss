@@ -1,0 +1,30 @@
+.top-product {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10rem;
+  .card{
+    text-align: center;
+    .card-title{
+        font-size: 2rem;
+        color: rgba(47, 47, 47, 1);
+        font-weight: 600;
+        padding-bottom: 3rem;
+        border-bottom: 3px solid white;
+        opacity: 80%;
+        &:hover{
+            border-bottom: 3px solid rgba(245, 155, 0, 1);
+            font-weight: 900;
+            opacity: 100%;
+        }
+    }
+    .card-img{
+        padding: 3rem 2rem;
+        margin-top: 3rem;
+        border: 1px solid rgba(163, 163, 163, 1);
+        border-radius: 5%;
+    }
+  }
+}

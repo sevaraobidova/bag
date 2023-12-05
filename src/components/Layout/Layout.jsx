@@ -1,10 +1,13 @@
-import React from 'react'
-import './Footer.scss'
-
-export default function Layout() {
-  return (
-    <div>
-      <h1>Layout</h1>
-    </div>
-  )
+import Header from "./Header";
+import Footer from "./Footer";
+function Layout({Children}) {
+    return ( 
+        <>
+            <Header />
+            {Children}
+            <Footer/>
+        </>
+     );
 }
+
+export default Layout;
